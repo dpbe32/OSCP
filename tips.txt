@@ -1,4 +1,4 @@
-comando | jq '.'[].email -> cambiar el email por la tring que quiera del json para obtener ese campo
+comando | jq '.'[].email -> cambiar el email por la string que quiera del json para obtener ese campo
 ejemplo quiero sacar solo el usuario y quitar el @email.com
 cud -d "@" -f1 (en el caso de ser f2 sacaria el email.com)
 
