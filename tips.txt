@@ -1,0 +1,10 @@
+comando | jq '.'[].email -> cambiar el email por la tring que quiera del json para obtener ese campo
+ejemplo quiero sacar solo el usuario y quitar el @email.com
+cud -d "@" -f1 (en el caso de ser f2 sacaria el email.com)
+
+
+para buscar caracteres especiales instalar seclists, relizar un updatedb y buscar con locate special-chars.txt
+wfuzz -e (ver los encoders de wfuzz) (seleccionar referencia para uso de bypass)
+
+wfuzz losparámetros que se necesite para fuzzear y para añadir el bypass es -> --zE utf8
+si hay un waf añadir un delay de 4 segundos para que no nos bloquee (-s 4 en wfuzz)
