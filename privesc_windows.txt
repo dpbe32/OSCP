@@ -1,7 +1,7 @@
 buscar por privescCheck (user itm4n on github)
 
 Una vez se transfiere, hacer un Invoke de la función (Invoke-PrivescCheck)
-
+Invoke-PrivescCheck -Extended
 
 windows-exploit-suggester.py -u (actualizar la base de datos)
 
