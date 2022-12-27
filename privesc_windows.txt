@@ -1,0 +1,11 @@
+buscar por privescCheck (user itm4n on github)
+
+Una vez se transfiere, hacer un Invoke de la función (Invoke-PrivescCheck)
+
+
+windows-exploit-suggester.py -u (actualizar la base de datos)
+
+
+systeminfo (en la maquina victima) -> guardar output como txt en nuestra máquina
+
+windows-exploit-suggester.py -d archivo.xls -i systeminfo.txt
