@@ -1,0 +1,4 @@
+ldapsearch -x -h IP -s base namingcontext
+
+ldapsearch -x -h IP -b "DC=domain,DC=local"
+
