@@ -1,0 +1,1 @@
+swaks --to (email al que se va ha enviar) --from (mi correo desde el que se va a mandar) --server mail.outdated.htb (el dominio de correo) --body "http://miip_attacker" --header "Subject: cualquiercosa"
