@@ -1,0 +1,3 @@
+ldapsearch -H ldap://10.10.10.175 -x -s base namingcontexts -> detect name dc
+
+ldapsearch -H ldap://10.10.10.175 -b 'DC=EGOTISTICAL-BANK,DC=LOCAL' -x -> detect user
